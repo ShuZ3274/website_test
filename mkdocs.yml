@@ -1,11 +1,11 @@
 # Change to your own name
-site_name: My Research Page
+site_name: Test_test
 # Change to your own site
-site_url: https://steob92.github.io/mcgill-tutorial/ # must have the trailing slash
-site_author: Your Name (stephan.obrien@mcgill.ca)
-site_description: Research site for Your Name 
+site_url: https://ShuZ3274.github.io/about_me/ # must have the trailing slash
+site_author: Shu Zhang (shu.zhang4@mail.mcgill.ca)
+site_description: Research site for Shu Zhang
 copyright: > # should remain a link to the original theme
-  &copy; 2023 Your Name <br>
+  &copy; 2023 Shu Zhang <br>
   <a href="https://github.com/vuquangtrong/mkdocs-material-blog">Blog Theme</a> /
   <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
 
@@ -17,9 +17,9 @@ theme:
       # Palette toggle for light mode
       - scheme: default
         # Color of the top bar
-        primary: deep purple
+        primary: blue grey
         # Link highlight color
-        accent : orange
+        accent : deep orange
         
         toggle:
           icon: material/brightness-7 
