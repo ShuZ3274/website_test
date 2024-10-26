@@ -4,13 +4,14 @@ Shu Zhang studies astrophysics.
 
 
 
-# Mysterious Links
+# Other Interests
 
-- [Lu Rou Fan !!!](./cooking.md)
-
+- [Cooking](./cooking.md)
+- [Languages](./language.md)
+- [Illustration](./illusratio.md)
 
 
 # CV
 
 <!-- How to embed a PDF -->
-<iframe width="90%" height="900" src="./media/website_CV_20241025.pdf">
+<iframe width="80%" height="700" src="./media/website_CV_20241025.pdf">
