@@ -1,6 +1,7 @@
 # Welcome to My Research Page
 
 
+If you like to know more about Shu Zhang, please follow navigation.
 ![Coma cluster](./media/Crab_Nebula.jpg "Crab Nebula"){align="left": style="height:150;width:150px"}
 
 

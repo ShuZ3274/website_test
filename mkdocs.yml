@@ -22,13 +22,13 @@ theme:
         accent : deep orange
         
         toggle:
-          icon: material/brightness-7 
+          icon: material/toggle-switch
           name: Switch to dark mode
 
       # Palette toggle for dark mode
       - scheme: slate
         toggle:
-          icon: material/brightness-4
+          icon: material/toggle-switch-off-outline
           name: Switch to light mode
 
     features:
