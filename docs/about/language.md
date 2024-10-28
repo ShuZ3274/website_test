@@ -1,3 +1,3 @@
-# My Cycling blog
+# Fun fact
 
-I've gotten a flat tire and there's snow outside. No cycling any time soon.
+I speak mandarin Chinese, Japanese, and English, almost equally fluent.
