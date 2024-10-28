@@ -58,7 +58,7 @@ nav:
   - Home: index.md
   - About Me: about/index.md
   - Research: reasearch/index.md
-  - Projects: projects/index.md
+
 
 # Extensions that we want to use
 markdown_extensions:

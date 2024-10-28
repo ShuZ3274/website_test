@@ -7,6 +7,6 @@
 
 
 
-Hello, I am Shu Zhang, a current graduate student at McGill, speciallized in astrophysics. If you're like to learn more about me, you can find an introduction to [my research](./reasearch/research_index.md), some info on some [recent projects](./projects/project_index.md) and some more info [about me](./about/about.md).
+Hello, I am Shu Zhang, a current graduate student at McGill, speciallized in astrophysics. If you're like to learn more about me, you can find an introduction to [my research](./reasearch/research_index.md), and some more info [about me](./about/about.md).
 
 
