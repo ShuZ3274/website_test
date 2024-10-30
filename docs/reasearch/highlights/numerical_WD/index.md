@@ -19,9 +19,17 @@ is consistent with observations, making the core-convection mechanism a stronger
 
 One way to simulate the evolution of white dwarf's magnetic field, in a small scale calculation, 
 is to employ a simple model which assumes that the field is spherical symmetrical. Then the 3D induction equation 
-$$ \frac{\partial \vec{B}}{\partial t} = - \nabla \times (\eta \nabala \times \vec{B})$$
+
+$$ 
+\frac{\partial \vec{B}}{\partial t} = - \nabla \times (\eta \nabala \times \vec{B})
+$$
+
 can be reduced to a modified 1D radial equation, if the diffusivity profile is only function of position $\eta(r)$
-$$ \frac{\partial R_l}{\partial t} = \eta(r) \left[ \frac{\partial^2 R_l}{\partial r^2} - \frac{l(l+1)R_l}{r^2} \right] $$
+
+$$ 
+\frac{\partial R_l}{\partial t} = \eta(r) \left[ \frac{\partial^2 R_l}{\partial r^2} - \frac{l(l+1)R_l}{r^2} \right]
+$$
+
 Which is a simple diffusion equation with a modification term. This form is easily solvable by matrix operation. 
 Please refer to [code](https://github.com/ShuZ3274/White-Dwarf/blob/main/Numerical%20Model%20of%20White%20Dwarf%20%E2%80%99s%20Magnetic%20Field%20Evolution/methods.py)
 on Github for methods in details.

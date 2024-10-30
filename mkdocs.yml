@@ -1,7 +1,7 @@
 # Change to your own name
-site_name: Test_test
+site_name: Shu Zhang
 # Change to your own site
-site_url: https://ShuZ3274.github.io/about_me/ # must have the trailing slash
+site_url: https://ShuZ3274.github.io/ # must have the trailing slash
 site_author: Shu Zhang (shu.zhang4@mail.mcgill.ca)
 site_description: Research site for Shu Zhang
 copyright: > # should remain a link to the original theme
