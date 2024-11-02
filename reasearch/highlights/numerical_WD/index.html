@@ -12,7 +12,7 @@
         <meta name="author" content="Shu Zhang (shu.zhang4@mail.mcgill.ca)">
       
       
-        <link rel="canonical" href="https://ShuZ3274.github.io/about_me/reasearch/highlights/numerical_WD/">
+        <link rel="canonical" href="https://ShuZ3274.github.io/reasearch/highlights/numerical_WD/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Numerical Simulation Tool for Evolution of Magnetic Field - Test_test</title>
+        <title>Numerical Simulation Tool for Evolution of Magnetic Field - Shu Zhang</title>
       
     
     
@@ -90,7 +90,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Test_test" class="md-header__button md-logo" aria-label="Test_test" data-md-component="logo">
+    <a href="../../.." title="Shu Zhang" class="md-header__button md-logo" aria-label="Shu Zhang" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -104,7 +104,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Test_test
+            Shu Zhang
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -275,13 +275,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Test_test" class="md-nav__button md-logo" aria-label="Test_test" data-md-component="logo">
+    <a href="../../.." title="Shu Zhang" class="md-nav__button md-logo" aria-label="Shu Zhang" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Test_test
+    Shu Zhang
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -378,11 +378,15 @@ will reduce the field intensity. With numerical calculation, we found that for a
 ∼ 0.2RWD −0.8RWD, the intensity of the surface field is $\sim 10^{−4}$ − $10^{−1}$ of the original. This result
 is consistent with observations, making the core-convection mechanism a stronger argument.</p>
 <p>One way to simulate the evolution of white dwarf's magnetic field, in a small scale calculation, 
-is to employ a simple model which assumes that the field is spherical symmetrical. Then the 3D induction equation 
-$$ \frac{\partial \vec{B}}{\partial t} = - \nabla \times (\eta \nabala \times \vec{B})$$
-can be reduced to a modified 1D radial equation, if the diffusivity profile is only function of position $\eta(r)$
-$$ \frac{\partial R_l}{\partial t} = \eta(r) \left[ \frac{\partial^2 R_l}{\partial r^2} - \frac{l(l+1)R_l}{r^2} \right] $$
-Which is a simple diffusion equation with a modification term. This form is easily solvable by matrix operation. 
+is to employ a simple model which assumes that the field is spherical symmetrical. Then the 3D induction equation </p>
+<p>$$ 
+\frac{\partial \vec{B}}{\partial t} = - \nabla \times (\eta \nabala \times \vec{B})
+$$</p>
+<p>can be reduced to a modified 1D radial equation, if the diffusivity profile is only function of position $\eta(r)$</p>
+<p>$$ 
+\frac{\partial R_l}{\partial t} = \eta(r) \left[ \frac{\partial^2 R_l}{\partial r^2} - \frac{l(l+1)R_l}{r^2} \right]
+$$</p>
+<p>Which is a simple diffusion equation with a modification term. This form is easily solvable by matrix operation. 
 Please refer to <a href="https://github.com/ShuZ3274/White-Dwarf/blob/main/Numerical%20Model%20of%20White%20Dwarf%20%E2%80%99s%20Magnetic%20Field%20Evolution/methods.py">code</a>
 on Github for methods in details.</p>
 <p>In the limit of first mode magnetic field (dipole) only, assumming some composition (details in this <a href="https://arxiv.org/abs/2406.01807">paper</a>),
